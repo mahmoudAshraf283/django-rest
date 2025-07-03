@@ -1,0 +1,19 @@
+# Ignore virtual environment
+rest_env/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore SQLite DB if used
+*.sqlite3
+db.sqlite3
+
+# Ignore media uploads and staticfiles (optional)
+media/
+staticfiles/
+
+# OS and editor stuff
+.DS_Store
+*.swp
+*.swo
